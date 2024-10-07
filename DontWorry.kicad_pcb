@@ -187,7 +187,7 @@
 		(at 148.59 88.5952 90)
 		(descr "4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf")
 		(tags "4 digit 7 segment green LED")
-		(property "Reference" "7-SEG DISPLAY CC"
+		(property "Reference" "U1"
 			(at 7.3952 34.11 90)
 			(layer "F.SilkS" knockout)
 			(uuid "1a0e20e5-7035-457a-8a7c-6b81b9519dae")
@@ -1486,7 +1486,7 @@
 	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 		(layer "F.Cu")
 		(uuid "17aa7c31-d53f-4918-9b34-4303e40ceef9")
-		(at 155.1 60.7 -90)
+		(at 155.1 60.8 -90)
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
 		(property "Reference" "BZ1"
@@ -3070,7 +3070,7 @@
 			(remove_unused_layers no)
 			(net 49 "unconnected-(J1-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c5cfa729-1ac1-41c7-bc89-d08f7b1dc13a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
@@ -7107,7 +7107,7 @@
 		(at 183 103)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "H4 (GND)"
+		(property "Reference" "H4"
 			(at -0.1 -4.9 0)
 			(layer "F.SilkS" knockout)
 			(uuid "44314ab1-8300-418d-b4a1-a40a5bbdb15c")
@@ -8247,7 +8247,7 @@
 			(remove_unused_layers no)
 			(net 6 "unconnected-(A1-~{RESET}-Pad3)")
 			(pinfunction "~{RESET}")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "4df0507e-5437-4caf-b1cf-124e7d3b963a")
 		)
 		(pad "4" thru_hole oval
